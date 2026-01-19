@@ -1,0 +1,86 @@
+@font-face {
+    font-family: googleOutfit;
+    src: url(./fonts/Outfit/Outfit-VariableFont_wght.ttf)
+}
+
+body {
+    font-family: googleOutfit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main {
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 499px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.qr-code {
+    max-width: 288px;
+    max-height: 288px;
+}
+
+.qr-code img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 0 16px;
+}
+
+.content-header {
+    margin-bottom: 16px;
+    font-size: 21px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.content-text {
+    line-height: 21px;
+    /* 
+    In style-guide recommended usage of font-weight 400, so I left it as recommended,
+    while if I look at the design picture I can see that the usage of font-weight 200
+    will give the result closer to the design files 
+    */
+    font-weight: 200;
+    color: hsl(216, 15%, 48%);
+    margin: 0;
+}
+
+.footer {
+    margin-top: 16px;
+    font-weight: 200;
+    font-size: small;
+}
+
+p {
+    font-size: 15px;
+}
+
+@media screen and (width > 375px) {
+    .container {
+        width: 1440;
+        height: 960px;
+    }
+}
+
+@media screen and (width <=375px) {
+    .container {
+        width: 375px;
+        height: 812px;
+    }
+}
