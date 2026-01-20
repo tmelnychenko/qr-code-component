@@ -59,7 +59,7 @@ I will continue focusing on modern HTML/CSS techniques and practical usage of th
 
 - [Flexbox] (https://www.w3schools.com/csS/css3_flexbox.asp) - This helped me to refresh knowledge about syntax of flexbox and arrange items of the page
 - [GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) - This helped me to conigure SSH keys for the project
-- [GitHub Pages] (https://docs.github.com/en/pages/quickstart) - This helped me to refresh knowledge of how to publish sites
+- [GitHub Pages](https://docs.github.com/en/pages/quickstart) - This helped me to refresh knowledge of how to publish sites
 - [Figma Learn](https://help.figma.com/hc/en-us/categories/360002051613) - This helped me to learn about Figma and how to use it
 
 ## Author
