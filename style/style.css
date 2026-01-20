@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: googleOutfit;
+    font-family: googleOutfit, sans-serif;
 }
 
 .container {
@@ -73,7 +73,7 @@ p {
 
 @media screen and (width > 375px) {
     .container {
-        width: 1440;
+        width: 1440px;
         height: 960px;
     }
 }

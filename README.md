@@ -46,7 +46,7 @@ I leaned how to add custom fonts and use them on the site
     src: url(./fonts/Outfit/Outfit-VariableFont_wght.ttf)
 }
 
-.attribution {
+body {
     font-family: googleOutfit;
 }
 ```
